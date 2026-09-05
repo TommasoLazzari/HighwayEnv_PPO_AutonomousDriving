@@ -1,0 +1,5 @@
+gymnasium>=1.0.0
+highway-env>=1.10.0
+torch>=2.0.0
+numpy>=1.24.0
+pygame>=2.5.0

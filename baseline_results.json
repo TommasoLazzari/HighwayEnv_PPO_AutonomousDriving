@@ -1,0 +1,105 @@
+{
+    "env_name": "highway-fast-v0",
+    "seed": 0,
+    "policy": "safety_first_baseline",
+    "config": {
+        "action": {
+            "type": "DiscreteMetaAction"
+        },
+        "duration": 40,
+        "vehicles_count": 50
+    },
+    "thresholds": {
+        "LANE_THRESHOLD": 0.25,
+        "CAUTION_FRONT": 0.3,
+        "SAFE_FRONT": 0.3,
+        "SAFE_REAR": 0.1
+    },
+    "num_episodes": 10,
+    "mean_return": 27.357941872452663,
+    "std_return": 6.069961242400692,
+    "mean_episode_steps": 37.3,
+    "crash_rate": 0.1,
+    "episodes": [
+        {
+            "episode": 1,
+            "episode_steps": 40,
+            "episode_return": 30.40266286840862,
+            "done": false,
+            "truncated": true,
+            "crash": false
+        },
+        {
+            "episode": 2,
+            "episode_steps": 40,
+            "episode_return": 28.553554502366048,
+            "done": false,
+            "truncated": true,
+            "crash": false
+        },
+        {
+            "episode": 3,
+            "episode_steps": 40,
+            "episode_return": 29.469329536663242,
+            "done": false,
+            "truncated": true,
+            "crash": false
+        },
+        {
+            "episode": 4,
+            "episode_steps": 40,
+            "episode_return": 29.186887835702986,
+            "done": false,
+            "truncated": true,
+            "crash": false
+        },
+        {
+            "episode": 5,
+            "episode_steps": 13,
+            "episode_return": 9.420221153592925,
+            "done": true,
+            "truncated": false,
+            "crash": true
+        },
+        {
+            "episode": 6,
+            "episode_steps": 40,
+            "episode_return": 28.41955878930276,
+            "done": false,
+            "truncated": true,
+            "crash": false
+        },
+        {
+            "episode": 7,
+            "episode_steps": 40,
+            "episode_return": 31.086887835702992,
+            "done": false,
+            "truncated": true,
+            "crash": false
+        },
+        {
+            "episode": 8,
+            "episode_steps": 40,
+            "episode_return": 30.135996203329878,
+            "done": false,
+            "truncated": true,
+            "crash": false
+        },
+        {
+            "episode": 9,
+            "episode_steps": 40,
+            "episode_return": 27.220215888748974,
+            "done": false,
+            "truncated": true,
+            "crash": false
+        },
+        {
+            "episode": 10,
+            "episode_steps": 40,
+            "episode_return": 29.684104110708184,
+            "done": false,
+            "truncated": true,
+            "crash": false
+        }
+    ]
+}
