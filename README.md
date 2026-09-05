@@ -122,8 +122,8 @@ A rule-based policy emulating cautious human decision-making:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/TommasoLazzari/<REPOSITORY_NAME>.git
-cd <REPOSITORY_NAME>
+git clone https://github.com/TommasoLazzari/HighwayEnv_PPO_AutonomousDriving.git
+cd HighwayEnv_PPO_AutonomousDriving
 ```
 
 ### 2. Create and Activate a Virtual Environment
