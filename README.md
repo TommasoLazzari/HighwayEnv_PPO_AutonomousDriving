@@ -90,7 +90,7 @@ autonomous_driving/
 ### 1. Environment & State Space
 - **Simulator**: `highway-fast-v0` (for accelerated training) and `highway-v0` (for evaluation rendering).
 - **Observation Space**: A $5 \times 5$ matrix capturing the ego-vehicle and 4 neighboring vehicles, flattened into a 25-dimensional state vector:
-  $$\mathbf{s} = \left[ \text{presence}_i,\, x_i,\, y_i,\, v_{x,i},\, v_{y,i} \right]^T \quad \text{for } i \in \{1, \dots, 5\}$$
+  $\mathbf{s} = \left[ \text{presence}_i,\, x_i,\, y_i,\, v_{x,i},\, v_{y,i} \right]^T \quad \text{for } i \in \{1, \dots, 5\}$
 - **Action Space**: 5 discrete meta-actions:
   `LANE_LEFT` (0), `IDLE` (1), `LANE_RIGHT` (2), `FASTER` (3), `SLOWER` (4).
 
